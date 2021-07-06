@@ -1,7 +1,7 @@
 body {
   font-family: "Bree Serif", serif;
   font-family: "Concert One", cursive;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 100%;
 }
@@ -41,8 +41,10 @@ header {
   float: left;
 }
 .logo img {
-  width: 100%;
-  padding: 15px 0;
+  width: 20%;
+  height: 20%;
+  margin-left: -5%;
+  padding-top: 15px;
 }
 /* toppage design */
 
@@ -58,6 +60,12 @@ p {
   font-size: 20px;
   color: rgb(102, 98, 98);
 }
+#middle-part {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 20px;
+  color: rgb(102, 98, 98);
+}
 .toppart-container {
   margin-left: 5%;
 
@@ -67,6 +75,9 @@ p {
 .half-width {
   width: 50%;
   padding-left: 6%;
+}
+.half-width p {
+  padding-right: 140px;
 }
 .half-width img {
   width: 70%;
@@ -80,12 +91,13 @@ p {
   color: white;
   border-radius: 25px;
 }
+/* middlepage design */
 .middle-one-container {
   background-image: url(images/7.png);
   background-repeat: no-repeat;
-  background-position: right;
-  padding-top: 5%;
-  margin-left: 0;
+
+  padding-left: -30px;
+  margin: 0%;
 }
 .flexible-container {
   display: flex;
@@ -161,4 +173,16 @@ h4 {
   color: teal;
   margin-left: 33%;
   padding-bottom: 8%;
+}
+.login-controller {
+  margin-top: 10%;
+  background-image: url(images/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+  padding-left: -30px;
+  height: 60vh;
+  padding-top: 3%;
+  padding-left: 40%;
+  padding-bottom: 5%;
+  display: flex;
+  margin-bottom: 120px;
 }
