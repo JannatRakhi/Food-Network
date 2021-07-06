@@ -26,7 +26,7 @@ header {
   display: inline-block;
 }
 .nav-area li a {
-  color: rgb(190, 186, 186);
+  color: rgb(121, 59, 59);
   text-decoration: none;
   padding: 5px 20px;
   font-family: poppins;
@@ -75,12 +75,13 @@ p {
 .half-width {
   width: 50%;
   padding-left: 6%;
+  padding-right: 6%;
 }
 .half-width p {
   padding-right: 140px;
 }
 .half-width img {
-  width: 70%;
+  width: 80%;
   margin-left: 30px;
 }
 
@@ -93,15 +94,17 @@ p {
 }
 /* middlepage design */
 .middle-one-container {
-  background-image: url(images/7.png);
+  background-image: url(images/Frame\ 59.jpg);
   background-repeat: no-repeat;
-
-  padding-left: -30px;
-  margin: 0%;
+  display: flex;
+  padding-top: 5%;
 }
 .flexible-container {
   display: flex;
-  margin-bottom: 120px;
+  margin-left: 60px;
+  height: 100vh;
+  width: 100%;
+  padding-right: 40%;
 }
 
 .recipie-image {
@@ -145,6 +148,7 @@ h4 {
   width: 80%;
   margin-left: 10%;
 }
+
 #social-media h1 {
   font-size: 30px;
   margin-bottom: -18px;
@@ -157,32 +161,36 @@ h4 {
 }
 
 #footer {
-  margin-top: 10%;
+  margin-top: 2%;
   background-color: rgb(22, 20, 20);
   color: white;
-  margin-bottom: 10%;
 }
 #footer h1 {
   margin-left: 40%;
   padding-top: 5%;
 }
 #footer span {
-  color: tomato;
+  color: rgb(240, 116, 94);
 }
 #footer p {
-  color: teal;
+  color: rgb(239, 248, 248);
   margin-left: 33%;
   padding-bottom: 8%;
 }
 .login-controller {
-  margin-top: 10%;
+  margin-top: 60px;
+  display: flex;
   background-image: url(images/Frame\ 57.jpg);
   background-repeat: no-repeat;
-  padding-left: -30px;
+  padding-left: 30px;
   height: 60vh;
   padding-top: 3%;
-  padding-left: 40%;
+  padding-left: 35%;
   padding-bottom: 5%;
   display: flex;
   margin-bottom: 120px;
+}
+
+.button-link {
+  margin-left: 20%;
 }
